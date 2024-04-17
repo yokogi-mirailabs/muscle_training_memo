@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc && vite build"
+        "build": "vue-tsc && vite build",
+        "type:check": "vue-tsc --noEmit"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
@@ -24,6 +25,7 @@
     "dependencies": {
         "@quasar/cli": "^2.4.0",
         "@quasar/extras": "^1.16.11",
+        "@types/ziggy-js": "^1.8.0",
         "quasar": "^2.15.2"
     }
 }
