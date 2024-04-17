@@ -24,7 +24,6 @@ const showingNavigationDropdown = ref(false);
                                     <ApplicationLogo
                                         class="block h-9 w-auto fill-current text-gray-800"
                                     />
-                                    <q-btn color="white" text-color="black" label="Standard" />
                                 </Link>
                             </div>
 

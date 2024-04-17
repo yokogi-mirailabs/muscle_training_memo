@@ -1,0 +1,20 @@
+
+  GET|HEAD  admin/confirm-password ................................................................................................................ password.confirm › Admin\Auth\ConfirmablePasswordController@show
+  POST      admin/confirm-password .................................................................................................................................. Admin\Auth\ConfirmablePasswordController@store
+  GET|HEAD  admin/dashboard .............................................................................................................................................................................. dashboard
+  POST      admin/email/verification-notification ..................................................................................... verification.send › Admin\Auth\EmailVerificationNotificationController@store
+  GET|HEAD  admin/forgot-password ................................................................................................................. password.request › Admin\Auth\PasswordResetLinkController@create
+  POST      admin/forgot-password .................................................................................................................... password.email › Admin\Auth\PasswordResetLinkController@store
+  GET|HEAD  admin/login ................................................................................................................................... login › Admin\Auth\AuthenticatedSessionController@create
+  POST      admin/login ............................................................................................................................................ Admin\Auth\AuthenticatedSessionController@store
+  POST      admin/logout ................................................................................................................................ logout › Admin\Auth\AuthenticatedSessionController@destroy
+  PUT       admin/password .................................................................................................................................. password.update › Admin\Auth\PasswordController@update
+  GET|HEAD  admin/register ................................................................................................................................... register › Admin\Auth\RegisteredUserController@create
+  POST      admin/register ............................................................................................................................................... Admin\Auth\RegisteredUserController@store
+  POST      admin/reset-password ........................................................................................................................... password.store › Admin\Auth\NewPasswordController@store
+  GET|HEAD  admin/reset-password/{token} .................................................................................................................. password.reset › Admin\Auth\NewPasswordController@create
+  GET|HEAD  admin/verify-email .................................................................................................................. verification.notice › Admin\Auth\EmailVerificationPromptController
+  GET|HEAD  admin/verify-email/{id}/{hash} .................................................................................................................. verification.verify › Admin\Auth\VerifyEmailController
+
+                                                                                                                                                                                                 Showing [16] routes
+
