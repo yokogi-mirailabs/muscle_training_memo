@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-base-purple {
+    color: #5347dd !important;
+}
+
+.bg-base-purple {
+    background: #5347dd !important;
+}
+
+.text-base-green {
+    color: #11e4ae !important;
+}
+
+.bg-base-green {
+    background: #11e4ae !important;
+}
