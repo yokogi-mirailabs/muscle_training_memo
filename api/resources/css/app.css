@@ -2,18 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-base-purple {
-    color: #5347dd !important;
+body {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EEF5FF;
 }
 
-.bg-base-purple {
-    background: #5347dd !important;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .text-base-green {
-    color: #11e4ae !important;
+    color: #4D869C !important;
 }
 
 .bg-base-green {
-    background: #11e4ae !important;
+    background: #4D869C !important;
+}
+
+.text-base-lignt-green {
+    color: #CDE8E5 !important;
+}
+
+.bg-base-lignt-green {
+    background: #CDE8E5 !important;
+}
+
+.trainings-table.q-table__container > div:first-child {
+    background-color: #4D869C;
+    color: white;
 }

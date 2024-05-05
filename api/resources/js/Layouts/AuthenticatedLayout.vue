@@ -9,8 +9,18 @@ const tab = ref('trainigs');
 <template>
     <div>
         <q-layout>
-            <q-footer bordered elevated class="bg-base-purple text-base-green">
-                <q-tabs class="bg-base-purple shadow-2" v-model="tab">
+            <q-page-container>
+                <main class="q-pa-lg">
+                    <header class="" v-if="$slots.header">
+                        <h1 class="text-h5 text-light-green text-bold">
+                            <slot name="header" />
+                        </h1>
+                    </header>
+                    <slot />
+                </main>
+            </q-page-container>
+            <q-footer bordered elevated class="bg-base-green text-base-lignt-green">
+                <q-tabs class="bg-base-green shadow-2" v-model="tab">
                 <q-tab name="trainings" :icon="mdiArmFlex " />
                 </q-tabs>
             </q-footer>
